@@ -1,0 +1,29 @@
+{
+    "name": "nongbit/codeigniter-twig",
+    "description": "Integrate Twig to CodeIgniter 4",
+    "keywords": ["codeigniter", "twig"],
+    "authors": [
+        {
+            "name": "Nongbit"
+        }
+    ],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/nongbit/codeigniter-twig#readme",
+    "support": {
+        "issues": "https://github.com/nongbit/codeigniter-twig/issues",
+        "source": "https://github.com/nongbit/codeigniter-twig"
+    },
+    "require": {
+        "codeigniter4/framework": "^4.0",
+        "twig/intl-extra": "^3.7",
+        "twig/twig": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nongbit\\Twig\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
