@@ -78,7 +78,7 @@ $this->twig->addFilters('rot13', 'rot13');
 $this->twig->addFilters('rot13', function($string) {
     return str_rot13($string);
 });
-$this->twig->addFitlers(['rot13']);
+$this->twig->addFilters(['rot13']);
 ```
 
 Inside view :
